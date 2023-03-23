@@ -6,7 +6,7 @@ exports.alertMail = (emailAdd,
     sgMail.setApiKey(key);
     const msg = {
       to: emailAdd, // Change to your recipient
-      from: "ashish.gandhi@softobiz.com", // Change to your verified sender
+      from: "praveen01@yopmail.com", // Change to your verified sender
       cc: "akshay@yopmail.com",
       subject: "Alert Message",
       text: "and easy to do anywhere, even with Node.js",
