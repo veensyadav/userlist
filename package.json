@@ -1,0 +1,29 @@
+{
+  "name": "backenddev",
+  "version": "1.0.0",
+  "description": "nodejs with sequelize project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "sequelize": "^6.29.3"
+  }
+}
